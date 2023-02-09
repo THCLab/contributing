@@ -1,0 +1,20 @@
+{
+  "name": "",
+  "version": "_VERSION_",
+  "license": "EUPL-1.2",
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": ""
+  },
+  "files": [
+    "nodejs/*",
+    "web/*"
+  ],
+  "main": "nodejs/file.js",
+  "types": "web/file.d.ts",
+  "browser": {
+    "./nodejs/file.js": "./web/file.js"
+  },
+  "sideEffects": false
+}
